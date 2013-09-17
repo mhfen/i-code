@@ -10,12 +10,12 @@
 
   function drawText() {
     ctx.fillStyle = "rgba(255, 255, 255, 0.6)";
-    ctx.font = "lighter 60px Helvetica Neueu";
+    ctx.font = "lighter 60px Helvetica Neue";
     ctx.textAlign = "center";
     ctx.fillText("Hi, I'm Matt.", W/2.5, H/2.1);
 
     ctx.fillStyle = "rgba(255, 255, 255, 0.6)";
-    ctx.font = "lighter 60px Helvetica Neueu";
+    ctx.font = "lighter 60px Helvetica Neue";
     ctx.textAlign = "center";
     ctx.fillText("I", W/1.92, H/2.1);
   }
@@ -25,7 +25,7 @@
 
   function drawCodeText(color) {
     ctx.fillStyle = color;
-    ctx.font = "lighter 60px Helvetica Neueu";
+    ctx.font = "lighter 60px Helvetica Neue";
     ctx.textAlign = "center";
     var cX = W/1.89,
         cY = H/2.1;
@@ -45,7 +45,7 @@
     ctx.clearRect(0, 0, W, H);
     drawText();
     ctx.fillStyle = "rgba(27, 224, 224, 0.8)";
-    ctx.font = "lighter 80px Helvetica Neueu";
+    ctx.font = "lighter 80px Helvetica Neue";
     for (var i=0; i < 4; i++) {
       var c = codeText[i];
       cX = Math.random()*W+1;
